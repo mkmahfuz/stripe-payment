@@ -1,0 +1,10 @@
+.payment-body{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.payment-left{
+    grid-column: span 4;
+}
+.payment-right{
+    grid-column:span 4;
+}
